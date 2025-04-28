@@ -13,7 +13,11 @@ MAE (Mean Absolute Error) — потому что лапласовский шу�
 2) python sales_api.py
 Тестирование: 
 Либо через брузер: http://localhost:8000/docs
+
+
 Либо через cURL:
+
+
 curl -X 'GET' 'http://localhost:8000/test_data'
 
 
