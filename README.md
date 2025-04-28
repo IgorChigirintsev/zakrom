@@ -11,7 +11,9 @@ MAE (Mean Absolute Error) — потому что лапласовский шу�
 Запуск: 
 1) pip install fastapi uvicorn sqlite3 pandas scikit-learn joblib python-multipart
 2) python sales_api.py
+
 Тестирование: 
+
 Либо через брузер: http://localhost:8000/docs
 
 
