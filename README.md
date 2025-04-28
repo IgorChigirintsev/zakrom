@@ -15,6 +15,8 @@ MAE (Mean Absolute Error) — потому что лапласовский шу�
 Либо через брузер: http://localhost:8000/docs
 Либо через cURL:
 curl -X 'GET' 'http://localhost:8000/test_data'
+
+
 curl -X 'POST' 'http://localhost:8000/forecast' \
 -H 'Content-Type: application/json' \
 -d '{"product_ids": [1,2], "start_date": "2023-05-01", "end_date": "2023-05-07"}'
